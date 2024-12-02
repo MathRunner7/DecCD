@@ -19,4 +19,4 @@ def test_predict(client):
 def test_hello(client):
     resp=client.get('/')
     assert resp.status_code == 200
-    assert resp.json=={'Hello Ankit!!'}
+    assert resp.json=='Hello Ankit!!'
