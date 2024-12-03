@@ -1,4 +1,6 @@
 pandas
 scikit-learn
 matplotlib
-flask
+flask~=3.1.0
+
+pytest~=8.3.3
